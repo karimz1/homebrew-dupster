@@ -13,4 +13,4 @@ Make sure you have [Homebrew](https://brew.sh) installed, then run:
 
 ```bash
 brew tap karimz1/dupster
-brew install dupster
+brew install karimz1/dupster/dupster-cli
