@@ -17,7 +17,7 @@ Then tap and install Dupster:
 ```bash
 brew tap karimz1/dupster
 brew install karimz1/dupster/dupster-cli
-
+``
 
 ## **🚀 Usage**
 
