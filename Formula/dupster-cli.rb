@@ -3,8 +3,8 @@ class DupsterCli < Formula
 
   desc "Modern CLI to find and clean up duplicate files"
   homepage "https://github.com/karimz1/dupster"
-  url "https://github.com/karimz1/dupster/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "aa21e48e199f2fb1d0ae2c53cc632fd5b10b1f5f29750068c6aa4c2aa22f358b"
+  url "https://github.com/karimz1/dupster/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 "f737c63e4ecafdc5325d5f6e97b02b186ee62fed191c73f46f0eb36bf26d3d82"
   license "Apache-2.0"
 
   depends_on "python@3.9"
