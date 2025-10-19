@@ -24,12 +24,11 @@ brew install karimz1/dupster/dupster-cli
 
 Run Dupster in any folder to find duplicates:
 
-```
+``` bash
 dupster .
 ```
 
 You’ll see an interactive interface where you can:
-
 
 
 - **Preview** duplicate files side by side using your default viewer
