@@ -3,8 +3,8 @@ class DupsterCli < Formula
 
   desc "Modern CLI to find and clean up duplicate files"
   homepage "https://github.com/karimz1/dupster"
-  url "https://github.com/karimz1/dupster/archive/refs/tags/v0.0.5.tar.gz"
-  sha256 "c1eee9ed93c37bb44d028d99b9ff4804e0f3adfbcd57868aee91b8de4c94e4c9"
+  url "https://github.com/karimz1/dupster/archive/refs/tags/v.0.0.6.tar.gz"
+  sha256 "a955be25676d5dc801f718e0fa1fb7ba4007ae18685a0b915f62eea5520f455c"
   license "Apache-2.0"
 
   depends_on "python@3.9"
@@ -163,7 +163,7 @@ class DupsterCli < Formula
   def install
     venv = virtualenv_create(libexec, "python3.9")
     venv.pip_install resources
-    libexec.install "dupster.py"
+    libexec.install "dupster.py", "src"
     (bin/"dupster").write <<~EOS
       #!/bin/bash
       exec "#{libexec}/bin/python" "#{libexec}/dupster.py" "$@"
